@@ -1,0 +1,21 @@
+<h3>Sample Form</h3>
+<form (submit)="addMix()">
+  <input type="hidden" name="mix.mix_creator" [(ngModel)]="mix.mix_creator"><br>
+  <label for="mix_name">Mix Name</label>
+  <input type="text" name="mix.mix_name" [(ngModel)]="mix.mix_name"><br>
+  <label for="mixname">Mix Description</label>
+  <input type="text" name="mix.mix_description" [(ngModel)]="mix.mix_description"><br>
+  <label for="email">Genre</label>
+  <input type="text" name="mix.mix_genre" [(ngModel)]="mix.mix_genre"><br>
+  <label for="mix.link">Youtube or Spotify URL</label>
+  <input type="text" name="mix.mix_link" [(ngModel)]="mix.mix_link"><br>
+  <label for="mix.mix_password">A password in case you want to check the stats!</label>
+  <input type="text" name="mix.mix_password" [(ngModel)]="mix.mix_password"><br>
+  <label for="mix.show_name">Do you want to show your name when people check out your mix?</label>
+  <select name="mix.show_name" [(ngModel)]="mix.show_name">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+  </select>
+  <input type="submit" value="Add mix!">
+  <h3>Once you Make your Mix, we'll go over and add some tracks!</h3>
+</form>

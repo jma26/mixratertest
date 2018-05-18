@@ -1,0 +1,15 @@
+add finished boolean to mix model --done
+add reviews to mix view
+Make sure all data displays on:
+    show all view
+    view mix view
+    mymix view
+    add tracks view
+Sockets
+set up Youtube and spotify APIs for mix view
+protect routes (password protected view pages)
+set up add tracks view to have added tracks
+Flash Messages
+Write up landing page script
+add bad review page
+

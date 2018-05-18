@@ -1,0 +1,12 @@
+<h3>Add Tracks:</h3>
+<form (submit)="addTrack()">
+    <label for="track_number">Track Number (keep in mind if some of the numbers don't connect or are the same, that'll be weird</label>
+    <input type="number" name="track.track_number" [(ngModel)]="track.track_number">
+    <label for="track_name">Track Name</label>
+    <input type="text" name="track.track_name" [(ngModel)]="track.track_name"><br>
+    <label for="track_artist">Track Artist</label>
+    <input type="text" name="track.track_artist" [(ngModel)]="track.track_artist"><br>
+    <input type="submit" value="Add Track">
+</form>
+
+<h3>Placeholder for Added Tracks</h3>
